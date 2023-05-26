@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Is the max heap empty? " + maxHeap.isEmpty());
         System.out.println("Max heap size: " + maxHeap.size());
 
-        String fileName = "inputA";
+        String fileName = "entradaA";
         try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
             int n = Integer.parseInt(reader.readLine());
             String[] elements = reader.readLine().split(" ");

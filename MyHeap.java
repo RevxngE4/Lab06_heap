@@ -7,8 +7,8 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class MyHeap {
-    private static final String INPUT_FILE_NAME = "enterFile";
-    private static final String OUTPUT_FILE_NAME = "outFile";
+    private static final String INPUT_FILE_NAME = "entrada";
+    private static final String OUTPUT_FILE_NAME = "salida";
 
     public static void main(String[] args) {
         try {
